@@ -20,7 +20,7 @@ The directory structure and core file/folder functions are detailed below:<br>
 
 **Dataset Preparation**<br>
 Organize your cross-domain plant disease dataset following the structure specified in dataset/config.py:<br>
-datasets/<br>
+Agri_datasets/<br>
 ├── source_domain/        # e.g., PlantVillage (source domain)<br>
 │   ├── Apple_scab/<br>
 │   ├── Tomato_Bacterial_spot/<br>
