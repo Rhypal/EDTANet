@@ -1,10 +1,8 @@
 # EDTANet
-Evidential Disentanglement and Semantic-Visual Topological Alignment for Cross-domain Plant Disease Classification  
-
+Evidential Disentanglement and Semantic-Visual Topological Alignment for Cross-domain Plant Disease Classification <br>
 This repository implements the method proposed in the research on cross-domain plant disease classification, which leverages evidential disentanglement and semantic-visual topological alignment to address domain shift issues in plant disease recognition tasks.  
 
-The directory structure and core file/folder functions are detailed below:  
-
+The directory structure and core file/folder functions are detailed below:<br>
 ├── dataset/                # Dataset-related modules<br>
 │   ├── __init__.py
 │   ├── Adataset.py      # Data loading pipeline for cross-domain plant disease datasets<br>
@@ -19,6 +17,7 @@ The directory structure and core file/folder functions are detailed below:
 ├── network.py              # Definition of the core network architecture (evidential disentangler, topological alignment module)<br>
 ├── train.py                # Main training script (training loop, parameter optimization, validation)<br>
 └── README.md               # Project documentation<br>
+
 **Dataset Preparation**<br>
 Organize your cross-domain plant disease dataset following the structure specified in dataset/config.py:<br>
 datasets/<br>
@@ -31,11 +30,11 @@ datasets/<br>
     ├── Tomato_Bacterial_spot/<br>
     └── ...<br>
 **Running the Code**<br>
-Step 1: Generate Text Embedding File
-First, generate the text-based .pth file (semantic features for plant disease classes):python load_text.py
-Step 2: Train the Model
-Run the training script with domain configuration:python train.py --source_domain source_domain --target_domain target_domain
-Step 3: Visualize Test Results
-After training, use the visualization tools in utils/ to analyze results.
-**Acknowledgements**
+Step 1: Generate Text Embedding File<br>
+First, generate the text-based .pth file (semantic features for plant disease classes):python load_text.py<br>
+Step 2: Train the Model<br>
+Run the training script with domain configuration:python train.py --source_domain source_domain --target_domain target_domain<br>
+Step 3: Visualize Test Results<br>
+After training, use the visualization tools in utils/ to analyze results.<br>
+**Acknowledgements**<br>
 This project is based on research on cross-domain plant disease classification. We thank the open-source plant disease datasets (e.g., PlantVillage) for supporting this work.
