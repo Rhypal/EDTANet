@@ -34,3 +34,5 @@ Step 2: Train the Model
 Run the training script with domain configuration:python train.py --source_domain source_domain --target_domain target_domain
 Step 3: Visualize Test Results
 After training, use the visualization tools in utils/ to analyze results.
+**Acknowledgements**
+This project is based on research on cross-domain plant disease classification. We thank the open-source plant disease datasets (e.g., PlantVillage) for supporting this work.
